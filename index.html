@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Youtube Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <div id="left">
+            <i class="fas fa-bars pointer"></i>
+            <i class="fab fa-youtube pointer" style="color: red">
+                <span style="color: black; font-family: 'Oswald', sans-serif">
+                    <strong> YouTube</strong>
+                </span>
+            </i>
+
+        </div>
+        <div id="search-container">
+            <div id="search">
+                <input placeholder="Search">
+            </div>
+            <button>
+                <i class="fas fa-search pointer"></i>
+            </button>
+        </div>
+        <div id="right">
+            <i class="fas fa-video pointer"></i>
+            <i class="fas fa-th pointer"></i>
+            <i class="fas fa-bell pointer"></i>
+            <i class="fas fa-user-circle pointer" style="font-size: 22px; color: teal"></i>
+        </div>
+    </header>
+    <div id="main-container">
+        <div id="video-comments">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/R21EU8SKUM0?list=RDR21EU8SKUM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>John Legend -All of Me (lyrics)</h3>
+            <div class='font-grey flex-space-between' style='border-bottom: 1px solid #eeeeee'>
+                <p>180,030,721 views</p>
+                <div class='flex-space-between' style="width: 40%">
+                    <i class="fas fa-thumbs-up">
+                        <span class="font"> 863K</span>
+                    </i>
+                    <i class="fas fa-thumbs-down">
+                        <span class="font"> 38K</span>
+                    </i>
+                    <i class="fas fa-share">
+                        <span class="font"> SHARE</span>
+                    </i>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class='flex-space-between' style="border-bottom: 1px solid #eeeeee">
+                <div id='logo' style="width: 50px; padding-right: 20px">
+                    <i class="fa fa-globe" style="font-size: 40px"></i>
+                </div>
+                <div>
+                    <h4>Stefan Van - All of Me</h4>
+                    <p class='font-grey move-up'>Ajoutée le 1 août 2017</p>
+                    <p>What would I do without your smart mouth
+                        Drawing me in, and you kicking me out
+                        You've got my head spinning, no kidding, I can't pin you down
+                        What's going on in that beautiful mind
+                        I'm on your magical mystery ride
+                        And I'm so dizzy, don't know what hit me, but I'll be alright
+                        ...........</p>
+                    <p class='font-grey'>SHOW MORE</p>
+                </div>
+                <button id='subscribe'>SUBSCRIBE
+                    <span style="padding-left: 8px; color: #e2e1e1">394K</span>
+                </button>
+            </div>
+            <div>
+                <p>626 comments
+                    <span class="font-grey" style="padding: 0 10px">
+                        <i class="fas fa-align-left"></i>
+                    </span>
+                    <span class="font-grey">ORDER BY</span>
+                </p>
+            </div>
+            <div id="comments">
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar" style="color: goldenrod">
+                        <i class="fab fa-globe"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-top: 5px">John Bonastre
+                            <span class="font-grey">10 months ago</span>
+                        </h4>
+                        <p>If you’re reading this i just wanna wish you a great day and say that you are perfect how you are 👍🏻😃
+                            Be happy my friend﻿.</p>
+                        <div class='font-grey'>
+                            <i class="fas fa-thumbs-up">
+                                <span class="font"> 9,8 K</span>
+                            </i>
+                            <i class="fas fa-thumbs-down">
+                                <span class="font"> 90</span>
+                            </i>
+                            Answer
+                            <p style="color: black; font-weight: bold">Show the 14 answers
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="videos-list">
+            <div class="flex-space-between" style="margin-bottom: 7px">
+                <div>Up Next</div>
+                <div class="font-grey">Autoplay
+                    <i class="fas fa-toggle-on" style="color: rgb(28, 31, 182); font-size: 20px"></i>
+                </div>
+            </div>
+            <div class="flex-row" style="border-bottom: 1px solid lightgray; padding: 5px 0; margin-bottom: 10px">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/0yW7w8F2TVA/mqdefault_6s.webp?du=3000&sqp=CLDG1d8F&rs=AOn4CLDUKc32K5PmWffZMiEzOWqD_Z1s8g">
+                </a>
+                <div class='text'>
+                    <h4>James Arthur - Say You Won't Let Go</h4>
+                    <p class="font-grey">James Arthur
+                        <br> 752M views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/z7BgY_wTNZA/mqdefault_6s.webp?du=3000&sqp=CIDW1d8F&rs=AOn4CLBt7cyx8y2iu3QWNf4floRAWb8ldg">
+                </a>
+                <div class='text'>
+                    <h4>Dancing On My Own - Calum Scott (Lyrics)</h4>
+                    <p class="font-grey">CODING Tech
+                        <br> 432 k views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/XXwWGs7H2_k/mqdefault_6s.webp?du=3000&sqp=CIiy1d8F&rs=AOn4CLAiyMHVBFLm_780Z14_2Sv0AttxmQ">
+                </a>
+                <div class='text'>
+                    <h4>THE VOICE LEGENDRY BLIND AUDITIONS!!!</h4>
+                    <p class="font-grey">Traversy Media
+                        <br> 43 k views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/z7BgY_wTNZA/mqdefault_6s.webp?du=3000&sqp=CIDW1d8F&rs=AOn4CLBt7cyx8y2iu3QWNf4floRAWb8ldg">
+                </a>
+                <div class='text'>
+                    <h4>Dancing On My Own - Calum Scott (Lyrics)</h4>
+                    <p class="font-grey">CODING Tech
+                        <br> 432 k views</p>
+                </div>
+            </div>
+            <div class="flex-row" style="border-bottom: 1px solid lightgray; padding: 5px 0; margin-bottom: 10px">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/0yW7w8F2TVA/mqdefault_6s.webp?du=3000&sqp=CLDG1d8F&rs=AOn4CLDUKc32K5PmWffZMiEzOWqD_Z1s8g">
+                </a>
+                <div class='text'>
+                    <h4>James Arthur - Say You Won't Let Go</h4>
+                    <p class="font-grey">James Arthur
+                        <br> 752M views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/vi/7kVeCqQCxlk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCAFaXAjn_y_2WwK-v-o3rWqvae4w">
+                </a>
+                <div class='text'>
+                    <h4>CSS Grids Changes Everything!</h4>
+                    <p class="font-grey">CODING Tech
+                        <br> 432 k views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/vi/Zftx68K-1D4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBsHTndLS4B3eDIAa0keUXQJN21Ng">
+                </a>
+                <div class='text'>
+                    <h4>Web Development in 2018 - A Practical Guide</h4>
+                    <p class="font-grey">Traversy Media
+                        <br> 43 k views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/vi/M3qBpPw77qo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAblIcfes59VCL6r5l8n3Tm900jcQ">
+                </a>
+                <div class='text'>
+                    <h4>Grid CSS Responsive Website Layout</h4>
+                    <p class="font-grey">TECH Design
+                        <br> 777 k views</p>
+                </div>
+            </div>
+            <div class="flex-row" style="border-bottom: 1px solid lightgray; padding: 5px 0; margin-bottom: 10px">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/0yW7w8F2TVA/mqdefault_6s.webp?du=3000&sqp=CLDG1d8F&rs=AOn4CLDUKc32K5PmWffZMiEzOWqD_Z1s8g">
+                </a>
+                <div class='text'>
+                    <h4>James Arthur - Say You Won't Let Go</h4>
+                    <p class="font-grey">James Arthur
+                        <br> 752M views</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <a href="#">
+                    <img width="186" src="https://i.ytimg.com/an_webp/z7BgY_wTNZA/mqdefault_6s.webp?du=3000&sqp=CIDW1d8F&rs=AOn4CLBt7cyx8y2iu3QWNf4floRAWb8ldg">
+                </a>
+                <div class='text'>
+                    <h4>Dancing On My Own - Calum Scott (Lyrics)</h4>
+                    <p class="font-grey">CODING Tech
+                        <br> 432 k views</p>
+                </div>
+            </div>
+            <button id="plus">SHOW MORE</button>
+        </div>
+    </div>
+</body>
+
+</html>
